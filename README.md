@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 <p align="center">
-  <img src="https://media.giphy.com/media/HWgB6Bf9sK8qK/giphy.gif" alt="Banner" width="100%" />
+  <img src="./assets/banner.gif" alt="Banner" width="100%" />
 </p>
 
 Projeto de análise de dados com Python e Pandas, focado em tratamento de base, cálculo de métricas, criação de relatórios e automação de envio por e-mail.
@@ -71,4 +71,4 @@ Algumas das bibliotecas presentes no ambiente incluem:
 Projeto.ipynb
 README.md
 vendas.xlsx
-output/
+assets/banner.gif
