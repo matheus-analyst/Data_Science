@@ -100,7 +100,5 @@ O objetivo do projeto é transformar dados brutos em informação útil para an�
 
 ## Autor
 
-Matheus Santos
-'''
-Path('output/README.md').write_text(content, encoding='utf-8')
-print('output/README.md atualizado')
+Matheus dos Santos
+
