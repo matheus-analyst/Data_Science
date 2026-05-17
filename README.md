@@ -1,5 +1,3 @@
-
-
 # Análise de Dados com Pandas 📊
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
@@ -10,20 +8,21 @@
 <p align="center">
   <img src="https://media.giphy.com/media/HWgB6Bf9sK8qK/giphy.gif" alt="Banner" width="100%" />
 </p>
-Projeto de **análise de dados com Python e Pandas**, focado em tratamento de base, cálculo de métricas, criação de relatórios e automação de envio por e-mail.
+
+Projeto de análise de dados com Python e Pandas, focado em tratamento de base, cálculo de métricas, criação de relatórios e automação de envio por e-mail.
 
 ## Visão geral
 
-Este notebook pega uma base de vendas, organiza os dados, calcula indicadores importantes e monta um e-mail em HTML com o resumo para o responsável acompanhar os resultados de forma rápida.
+Este projeto utiliza uma base de vendas para organizar os dados, calcular indicadores importantes e gerar um resumo em HTML para acompanhamento dos resultados de forma rápida e prática.
 
 ## Funcionalidades
 
 - Leitura e tratamento da base de vendas.
-- Criação de colunas calculadas como faturamento e ticket médio.
+- Criação de colunas calculadas como faturamento.
 - Agrupamento por loja e análise de desempenho.
 - Geração de tabelas organizadas em HTML.
 - Envio automático de relatório por e-mail com `smtplib`.
-- Uso de `Plotly` para visualização de dados.
+- Criação de visualizações com `Plotly`.
 
 ## Tecnologias utilizadas
 
@@ -31,13 +30,13 @@ Este notebook pega uma base de vendas, organiza os dados, calcula indicadores im
 - Pandas
 - Plotly
 - OpenPyXL
-- Smtplib
-- MIMEText e MIMEMultipart
+- `smtplib`
+- `MIMEText` e `MIMEMultipart`
 - Jupyter Notebook
 
 ## Bibliotecas instaladas
 
-As principais bibliotecas presentes no ambiente incluem:
+Algumas das bibliotecas presentes no ambiente incluem:
 
 - scipy
 - statsmodels
@@ -47,19 +46,15 @@ As principais bibliotecas presentes no ambiente incluem:
 - typing_extensions
 - tzdata
 - widgetsnbextension
-- webcolors
 - websocket-client
 - soupsieve
 - stack-data
 - terminado
 - tinycss2
-- rpds-py
 - Send2Trash
 - setuptools
 - six
 - wcwidth
-- webencodings
-- uri-template
 
 ## Como funciona
 
@@ -77,29 +72,3 @@ Projeto.ipynb
 README.md
 vendas.xlsx
 output/
-```
-
-## Exemplo de resultado
-
-O relatório final traz uma tabela com:
-
-- Loja.
-- Faturamento total.
-- Quantidade vendida.
-- Ticket médio.
-
-## Objetivo
-
-O objetivo do projeto é transformar dados brutos em informação útil para análise de desempenho comercial e apoio à tomada de decisão.
-
-## Próximos passos
-
-- Adicionar gráficos mais completos.
-- Inserir filtros por produto e período.
-- Salvar relatórios em PDF ou Excel.
-- Criar dashboard interativo.
-
-## Autor
-
-Matheus dos Santos
-
