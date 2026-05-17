@@ -7,8 +7,9 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-![Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2R0dG1vY2w1d2R0Y2R0dG1vY2w1d2R0Y2R0dG1vY2w1d2R0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HWgB6Bf9sK8qK/giphy.gif)
-
+<p align="center">
+  <img src="https://media.giphy.com/media/HWgB6Bf9sK8qK/giphy.gif" alt="Banner" width="100%" />
+</p>
 Projeto de **análise de dados com Python e Pandas**, focado em tratamento de base, cálculo de métricas, criação de relatórios e automação de envio por e-mail.
 
 ## Visão geral
